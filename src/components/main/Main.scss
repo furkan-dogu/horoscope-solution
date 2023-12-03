@@ -1,0 +1,73 @@
+main {
+  margin-bottom: 2rem;
+  .cards {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    .card {
+      position: relative;
+      width: 500px;
+      height: 350px;
+      overflow: hidden;
+      margin: 0.5rem;
+      border-radius: 20px;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        opacity: 0.7;
+        &:hover {
+          opacity: 1;
+        }
+      }
+      &:hover .desc {
+        transform: translateY(0%);
+      }
+
+      h2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 1rem;
+        font-size: 2rem;
+        color: #cd890c;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 20px;
+        font-weight: 500;
+      }
+
+      .date {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem;
+        color: #cd890c;
+        background-color: rgba(0, 0, 0, 0.8);
+        font-size: 0.7rem;
+        border-radius: 1rem;
+        font-weight: 500;
+      }
+      .desc {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-family: "Almendra Display", sans-serif;
+        font-size: 1.5rem;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1rem;
+        border-radius: 1rem;
+        transform: translateY(100%);
+        transition: transform 0.8s ease-in-out;
+        height: 50%;
+        overflow: auto;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+  }
+}
