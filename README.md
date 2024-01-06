@@ -8,6 +8,14 @@
 
 This project includes a web application that provides information about horoscopes. 
 
+## Table of Contents
+
+- [How to Use](#how-to-use)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Project Skeleton](#project-skeleton)
+- [Screenshots](#screenshots)
+
 ## Live Demo
 
 [Horoscope Solution Demo](https://horoscope-solution.vercel.app/)
@@ -17,17 +25,17 @@ This project includes a web application that provides information about horoscop
 1. On the main page, select your birthdate and find your horoscope sign.
 2. View personalized horoscope information for the selected sign.
 
-## Screenshots
+## Features
 
-<div align="center">
-  <img src="https://github.com/furkan-dogu/horoscope-solution/blob/main/public/assets/Screenshot_1.jpg"  width="35%" height="600" />
-  <img src="https://github.com/furkan-dogu/horoscope-solution/blob/main/public/assets/Screenshot_2.jpg"  width="55%" height="600" />
-  <img src="https://github.com/furkan-dogu/horoscope-solution/blob/main/public/assets/Screenshot_3.jpg"  width="90.5%" height="500" />
-</div>
+- Determining the horoscope sign based on the birthdate.
+- User-friendly interface.
 
-## Compatibility
+## Technologies
 
-The project is compatible with both wide-screen computers and mobile devices.
+The following technologies are used in this project:
+
+- React.js
+- Sass
 
 ## Project Skeleton
 
@@ -60,14 +68,14 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Features
+## Screenshots
 
-- Determining the horoscope sign based on the birthdate.
-- User-friendly interface.
+<div align="center">
+  <img src="https://github.com/furkan-dogu/horoscope-solution/blob/main/public/assets/Screenshot_1.jpg"  width="35%" height="600" />
+  <img src="https://github.com/furkan-dogu/horoscope-solution/blob/main/public/assets/Screenshot_2.jpg"  width="55%" height="600" />
+  <img src="https://github.com/furkan-dogu/horoscope-solution/blob/main/public/assets/Screenshot_3.jpg"  width="90.5%" height="500" />
+</div>
 
-## Technologies
+## Compatibility
 
-The following technologies are used in this project:
-
-- React.js
-- Sass
+The project is compatible with both wide-screen computers and mobile devices.
